@@ -25,7 +25,12 @@ def parse(file_name):
         combined_data = read_csv(file_path, sep='\s+', header=None).to_numpy()
     except:
         print('Unable to find and open the .ldr file')
+   
+    # print(combined_data)
+    # ind = np.lexsort((combined_data[:,1],combined_data[:,0]))
+    # print(ind)
 
+    
     # Convert part .dat identifier to an int
     bricks = []
     for i, part in enumerate(combined_data[:, -1]):
