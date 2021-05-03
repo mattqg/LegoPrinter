@@ -16,7 +16,7 @@ def main():
     # Parse input ldr file, output to config.bricks and bom.txt
     read.parse(args.input_path)
     path.prepare()
-    path.togcode()
+    # path.togcode()
     # render.drawpath()
 
 

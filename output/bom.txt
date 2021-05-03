@@ -1,10 +1,8 @@
 Bricks Needed:
 
-1 red loaded in position 1
+2 red loaded in position 1
 
 1 yellow loaded in position 3
 
 1 blue loaded in position 5
-
-1 purple loaded in position 6
 

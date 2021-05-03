@@ -16,8 +16,8 @@ def prepare():
     # lower z and deactuate solenoid - repeat pickup
 
 
-def togcode():
-    print("to gcode")
+# def togcode():
+#     print("to gcode")
 
 
 # def pick()):
