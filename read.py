@@ -37,7 +37,7 @@ def parse(file_name):
         combined_data[i, -1] = int(part.replace(".dat", ""))
         bricks.append(Brick(combined_data[i, 1], combined_data[i, 2],
                             combined_data[i, 4], -combined_data[i, 3]/24))
-    print(combined_data)
+
     bom = generate_bom(bricks)
     config.bricks = bricks
 
